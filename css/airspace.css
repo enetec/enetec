@@ -60,6 +60,7 @@ a:active {
   font-family: 'Volkhov', serif;
   font-style: italic;
   color: #666;
+ 
 }
 /*--
 	Header Start
@@ -68,8 +69,13 @@ header {
   background: #fff;
   padding: 3px 0;
 }
+#gnb{
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+}
 header .navbar {
-  margin-bottom: 0px;
+  margin-bottom: -22px;
   border: 0px;
 }
 header .navbar-brand {
@@ -237,7 +243,7 @@ header .navbar-default .navbar-nav li a:hover {
   display: block;
   position: relative;
   overflow: visible;
-  background-attachment: fixed;
+  background-attachment: ;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
@@ -259,7 +265,7 @@ header .navbar-default .navbar-nav li a:hover {
   display: block;
   position: relative;
   overflow: visible;
-  background-attachment: fixed;
+  background-attachment: ;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
@@ -402,8 +408,8 @@ header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
-  text-align: center;
+  padding-left: 0px;
+  text-align: left;
 }
 #global-header .block h1 {
   font-weight: 100;
@@ -445,8 +451,8 @@ header .navbar-default .navbar-nav li a:hover {
 #global-headerw .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
-  text-align: center;
+  padding-left: 0px;
+  text-align: left;
 }
 #global-headerw .block h1 {
   font-weight: 100;
@@ -455,6 +461,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
+
 }
 #global-headerw .block p {
   font-size: 16px;
@@ -487,8 +494,8 @@ header .navbar-default .navbar-nav li a:hover {
 #global-headerc .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
-  text-align: center;
+  padding-left: 0px;
+  text-align: left;
 }
 #global-headerc .block h1 {
   font-weight: 100;
@@ -802,6 +809,8 @@ header .navbar-default .navbar-nav li a:hover {
   margin-right: 15px;
   font-size: 20px;
   width: 20px;
+	color:black;
+	font-color:black;
 }
 .social-icons {
   margin-top: 40px;

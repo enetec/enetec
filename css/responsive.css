@@ -159,21 +159,39 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
   .heading {
     padding-left: 0px;
   }
+
   h2 {
     font-size: 18px;
   }
+
   p {
     font-size: 13px;
+    padding:20px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+header .navbar{
+  margin-bottom:0px;
+}
+  #intro{
+    padding:0px;
+  }
+  #feature{
+    padding: 0;
+    background: none;
+  }
+  #feature:hover{
+    padding: 0;
+    background: none;
   }
   #slider {
     padding-top: 90px;
@@ -187,6 +205,12 @@ px      68    160    252    */
   }
   #slider .block p {
     font-size: 13px;
+  }
+  #testimonial{
+    padding: 0px
+  }
+  .frame123{
+    width: 90%;
   }
   /*--
 	wrapper Start 
@@ -386,7 +410,6 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
-}
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.
@@ -398,3 +421,76 @@ px      68    160    252    344    436    */
 	Overrides styles for devices with a 
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
+@media only screen and (max-width: 500px) {
+.apoio{
+width: 320px;
+float:center;
+
+}
+
+.apoio ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.apoio ul.img-list li {
+  display: inline-block;
+  height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 99px;
+}
+.apoio .text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  opacity: 0;
+}
+
+.apoio .text-content p{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+
+}
+.apoio ul.img-list li:hover .text-content {
+  opacity: 1;
+}
+.apoio .text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.iframe1{
+display: none;
+}
+}
+@media only screen and (max-width: 930px) {
+ .section11{
+  display: none;
+ } 
+}
+
+
+

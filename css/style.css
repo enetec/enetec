@@ -48,6 +48,7 @@
   text-decoration:none;
   text-shadow:1px 1px 1px #000000;
   text-align: center;
+  bottom:20px;
 }
 .myButton:hover {
   background-color:#e6e6e6;
@@ -190,8 +191,246 @@
     .desktop-hide{ display: none !important; }
 
 .apoio{
-height:40%; 
-width:40%;
+width: 400px;
 float:left;
 
 }
+
+.apoio ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.apoio ul.img-list li {
+  display: inline-block;
+  height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 100px;
+}
+.apoio .text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  opacity: 0;
+}
+
+.apoio .text-content p{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+
+}
+.apoio ul.img-list li:hover .text-content {
+  opacity: 1;
+}
+.apoio .text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+     /* Base da lampada */
+.base{
+
+
+position:absolute; 
+left:210px;
+top:480px; 
+
+
+}
+
+.base img{
+width: 35%; 
+height: auto; 
+}
+
+
+/*Lampada 2*/
+
+.lampada2 {
+
+  position:absolute;
+  left:200px; 
+  top:590px;
+
+}
+
+
+.lampada2 img{
+  width:40%; 
+  height:auto; 
+
+}
+
+
+
+
+.lampada2 img:hover{
+  width:50%; 
+  height:auto; 
+
+  
+}
+
+
+.lampada2t img{
+width: 20%;
+height: auto;
+position: relative;
+left:700px;
+top:125px;
+
+}
+.lampada2t img:hover{
+width: 30%;
+height: auto;
+position: relative;
+left:700px;
+top:125px;
+}
+
+
+/*Lampada 3*/
+
+.lampada3 {
+
+  position:absolute; 
+  left:280px; 
+  top:590px;
+
+}
+
+
+.lampada3 img{
+  width:40%; 
+  height:auto; 
+}
+
+
+
+
+.lampada3 img:hover{
+  width:50%; 
+  height:auto; 
+  
+}
+
+.lampada3t img{
+width: 20%;
+height: auto;
+position: relative;
+left:700px;
+top:150px;
+
+}
+.lampada3t img:hover{
+width: 30%;
+height: auto;
+position: relative;
+left:700px;
+top:150px;
+}
+
+/*Lampada 4*/
+
+.lampada4 {
+
+  position:absolute; 
+  left:390px; 
+  top:625px;
+
+}
+
+
+.lampada4 img{
+  width:40%; 
+  height:auto; 
+}
+
+
+
+
+.lampada4 img:hover{
+  width:50%; 
+  height:auto; 
+  
+}
+.lampada4t img{
+width: 20%;
+height: auto;
+position: relative;
+left:700px;
+top:175px;
+
+}
+.lampada4t img:hover{
+width: 30%;
+height: auto;
+position: relative;
+left:700px;
+top:175px;
+}
+/*Lampada 5*/
+
+.lampada5 {
+
+  position:absolute; 
+  left:380px; 
+  top:510px;
+
+}
+
+
+.lampada5 img{
+  width:40%; 
+  height:auto; 
+}
+
+
+
+
+.lampada5 img:hover{
+  width:50%; 
+  height:auto; 
+  
+}
+
+.lampada5t img{
+width: 20%;
+height: auto;
+position: relative;
+left:700px;
+top:200px;
+
+}
+.lampada5t img:hover{
+width: 30%;
+height: auto;
+position: relative;
+left:700px;
+top:200px;
+}
+
+
+
