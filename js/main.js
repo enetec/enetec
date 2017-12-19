@@ -45,6 +45,15 @@ $(document).ready(function(){
         time: 1000
     });
 
+// ------- Conversão do adwords
+
+$('#baixar').onclick=function(url){
+	gtag_report_conversion(url)
+// ------- Fim da Conversão do AdWords
+
+}
+
+
 
 });
 
